@@ -58,7 +58,6 @@ MCU-Data-Logger/
 │── PCB/                   # KiCad PCB layout
 │── Gerber/                # Manufacturing-ready Gerber files
 │
-├── 3DModels/              # STEP / WRL models (optional)
 └── Images/                # PCB renders, photos, diagrams
 ```
 
