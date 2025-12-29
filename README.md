@@ -134,7 +134,7 @@ Compatible with popular PCB manufacturers:
 
 Board renders, four-layer PCB photos, and pin-mapping diagrams for the **MCU Data Logger with Built-in EEPROM & RTC** are available here:
 
- **[Images](./Images)**
+ **[Images](./IMAGES)**
  
  📜 License
 
