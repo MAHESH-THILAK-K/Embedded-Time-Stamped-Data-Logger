@@ -53,10 +53,10 @@ MCU-Data-Logger/
 ├── README.md              # Project documentation
 ├── LICENSE                # MIT License
 │
-├── Hardware/
-│   ├── Schematic/         # KiCad schematic files
-│   ├── PCB/               # KiCad PCB layout
-│   └── Gerber/            # Manufacturing-ready Gerber files
+
+│── Schematic/             # KiCad schematic files
+│── PCB/                   # KiCad PCB layout
+│── Gerber/                # Manufacturing-ready Gerber files
 │
 ├── 3DModels/              # STEP / WRL models (optional)
 └── Images/                # PCB renders, photos, diagrams
