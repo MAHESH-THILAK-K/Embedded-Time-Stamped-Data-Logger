@@ -1,42 +1,42 @@
 ---
 
-# MCU Data Logger with Built-in EEPROM & RTC
+ MCU Data Logger with Built-in EEPROM & RTC
 
 A compact, low-power **embedded data logger** based on the **ATmega328P**, featuring **on-board EEPROM storage** and a **battery-backed real-time clock** for reliable, time-stamped data logging without an SD card.
 
 ---
 
-## 📌 Key Features
+ 📌 Key Features
 
-### 🧠 Core MCU
+ 🧠 Core MCU
 
 * **ATmega328P-AU** (TQFP package)
 * 8-bit AVR microcontroller
 * Arduino-compatible ecosystem
 * Stable and widely supported for embedded applications
 
-### 💾 On-Board Memory
+ 💾 On-Board Memory
 
 * **2 × 24LC1025 I²C EEPROM**
 * Total storage: **512 kbit (64 KB)**
 * Non-volatile memory for secure data retention
 * Ideal for structured and time-stamped logging
 
-### ⏱️ Real-Time Clock
+ ⏱️ Real-Time Clock
 
 * **DS1337 RTC**
 * I²C interface
 * Backup battery support
 * Maintains accurate date and time during power loss
 
-### 🔋 Power System
+ 🔋 Power System
 
 * Battery input supported
 * On-board voltage regulation
 * Low-power design for continuous operation
 * LED indicators for power and status
 
-### 🔌 I/O & Expansion
+ 🔌 I/O & Expansion
 
 * I²C bus shared between EEPROM and RTC
 * GPIO headers for external sensors
@@ -45,7 +45,7 @@ A compact, low-power **embedded data logger** based on the **ATmega328P**, featu
 
 ---
 
-## 📂 Repository Structure
+ 📂 Repository Structure
 
 ```
 MCU-Data-Logger/
@@ -64,30 +64,30 @@ MCU-Data-Logger/
 
 ---
 
-## 🛠️ Hardware Overview
+ 🛠️ Hardware Overview
 
-### Memory & RTC
+ Memory & RTC
 
 * **24LC1025 EEPROMs** connected via I²C
 * **DS1337 RTC** on the same I²C bus
 * Required I²C pull-up resistors included
 
-### Power Path
+ Power Path
 
 * External power or battery supply
 * Regulated voltage for MCU and peripherals
 * RTC backup battery for uninterrupted timekeeping
 
-### PCB Design
+ PCB Design
 
 Understood. Below is the **corrected and updated text**, rewritten to **accurately reflect a FOUR-LAYER PCB design**.
 You can **directly replace the existing “PCB Design” section** in your README with this.
 
 ---
 
-## 🛠️ Hardware Overview
+ 🛠️ Hardware Overview
 
-### PCB Design
+ PCB Design
 
 * **Four-layer PCB architecture**
 * Dedicated internal planes for **GND and Power**
@@ -98,7 +98,7 @@ You can **directly replace the existing “PCB Design” section** in your READM
 
 ---
 
-## 🚀 Firmware Overview
+ 🚀 Firmware Overview
 
 * Supports **custom AVR firmware** or **Arduino-based development**
 * Capable of:
@@ -110,7 +110,7 @@ You can **directly replace the existing “PCB Design” section** in your READM
 
 ---
 
-## 📄 Manufacturing
+ 📄 Manufacturing
 
 The `Hardware/Gerber/` folder includes:
 
@@ -130,13 +130,13 @@ Compatible with popular PCB manufacturers:
 
 ---
 
-## 📸 Images & Diagrams
+ 📸 Images & Diagrams
 
 Board renders, four-layer PCB photos, and pin-mapping diagrams for the **MCU Data Logger with Built-in EEPROM & RTC** are available here:
 
  **[Images](./Images)**
  
-## 📜 License
+ 📜 License
 
 This project is open-source and released under the **MIT License**.
 
@@ -151,14 +151,14 @@ See the `LICENSE` file for full details.
 
 ---
 
-## 🙌 Contributions
+ 🙌 Contributions
 
 Contributions, improvements, and documentation updates are welcome.
 Feel free to open **Issues** or submit **Pull Requests**.
 
 ---
 
-## 🎯 Best Suited For
+ 🎯 Best Suited For
 
 * Embedded systems learners
 * Data logging applications
